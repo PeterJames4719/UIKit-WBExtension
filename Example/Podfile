@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'UIKit-WBExtension_Example' do
+  pod 'UIKit-WBExtension', :path => '../'
+
+  target 'UIKit-WBExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
