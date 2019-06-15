@@ -1,0 +1,6 @@
+framework module Pods_UIKit_WBExtension_Tests {
+  umbrella header "Pods-UIKit-WBExtension_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module UIKit_WBExtension {
+  umbrella header "UIKit-WBExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

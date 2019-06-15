@@ -1,0 +1,6 @@
+framework module WBStringCodec {
+  umbrella header "WBStringCodec-umbrella.h"
+
+  export *
+  module * { export * }
+}
