@@ -76,6 +76,7 @@
             UIImage *icon = [UIImage imageNamed:item];
             btn = [UIButton buttonWithType:UIButtonTypeCustom];
             [btn setImage:icon forState:UIControlStateNormal];
+            [btn setImage:icon forState:UIControlStateHighlighted];
             CGSize size = icon.size;
             if (size.width < 40) {
                 size = CGSizeMake(40, 40);
